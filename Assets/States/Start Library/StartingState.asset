@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25d0268f753d7de4a9832fe57c275d3e, type: 3}
+  m_Name: StartingState
+  m_EditorClassIdentifier: 
+  storyText: 'You wake up from a nap at your desk, a nagging dream slowly fading
+    from your mind. You peer around you to see your research strewn across the table.
+
+
+
+    What
+    would you like to do?
+
+    1. Look around
+
+    2. Look at research'
+  nextStates:
+  - {fileID: 11400000, guid: 190be9c1fb88bf64996a8b01dc80d680, type: 2}
+  - {fileID: 11400000, guid: 31178c052358ab941ac7f3090c693ad5, type: 2}
